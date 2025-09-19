@@ -1,6 +1,7 @@
 # Netflix EDA Data Analysis-
 This project just focuses on using Power Query and Power BI to create the dashboard.
-## Data from Kaggle - <a href = “https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download”>
+## Data from Kaggle 
+<a href = “https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download”>
 ## KPI Questions
 These Key Performance Indicator (KPI) questions are designed to analyse different aspects of the Netflix content library.
 
