@@ -3,7 +3,8 @@ This project just focuses on using Power Query and Power BI to create the dashbo
 ## Data from Kaggle - <a href = “https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download”>
 ## KPI Questions
 These Key Performance Indicator (KPI) questions are designed to analyse different aspects of the Netflix content library.
-## Content Growth and Curation KPIs:
+
+Content Growth and Curation KPIs:
 •	Content Volume: What is the total number of titles available on the platform?
 •	Content Mix: What is the ratio of movies to TV shows in the current content library?
 •	Annual Releases: How many titles were added each year, and what is the trend of content acquisition over time?
