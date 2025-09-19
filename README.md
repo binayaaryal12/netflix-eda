@@ -6,17 +6,17 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
 These Key Performance Indicator (KPI) questions are designed to analyse different aspects of the Netflix content library.
 
 - Content Growth and Curation KPIs:
--- Content Volume: What is the total number of titles available on the platform?
-	Content Mix: What is the ratio of movies to TV shows in the current content library?
-	Annual Releases: How many titles were added each year, and what is the trend of content acquisition over time?
-Genre Diversity: What are the top 5 most common genres by the number of titles?
-	Director Contribution: What is the total number of unique directors represented in the library?
+- Content Volume: What is the total number of titles available on the platform?
+- Content Mix: What is the ratio of movies to TV shows in the current content library?
+- Annual Releases: How many titles were added each year, and what is the trend of content acquisition over time?
+- Genre Diversity: What are the top 5 most common genres by the number of titles?
+- Director Contribution: What is the total number of unique directors represented in the library?
 
 
 - Audience and Accessibility KPIs:
-  Content Ratings: What is the most prevalent content rating on the platform (e.g., TV-MA, TV-14)?
-	Geographic Distribution: Which countries have the highest number of shows and movies available?
-  Content Age: What is the age range of the content library, from the earliest to the most recent release date?
+- Content Ratings: What is the most prevalent content rating on the platform (e.g., TV-MA, TV-14)?
+- Geographic Distribution: Which countries have the highest number of shows and movies available?
+- Content Age: What is the age range of the content library, from the earliest to the most recent release date?
 
   
 ________________________________________
