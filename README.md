@@ -14,23 +14,22 @@ These Key Performance Indicator (KPI) questions are designed to analyse differen
 - Geographic Distribution: Which countries have the highest number of shows and movies available?
 - Content Age: What is the age range of the content library, from the earliest to the most recent release date?
 
-  
-________________________________________
 ## Data Cleaning Steps
 The following steps were taken using Power BI Query to prepare the data for analysis:
-•	Column Profiling: A preliminary review of the data columns was conducted to understand their characteristics.
-•	Setting Headers: The headers were set to be the first row of data.
-•	File Fixes: The CSV file was manually corrected to address a specific data issue, such as "William Wyler" being incorrectly listed as a type.
-•	Dealing with Missing Values:
-o	Director: The strategy for the director column was to fill missing values with "no director." The more complex method of using cast members to find directors was deemed unreliable.
-o	Country: For missing country data, the assumption was made that the titles were produced in the United States, given that 31% of the movies were made there, and only 10% of the values were missing.
-•	Changing Data Types:
-o	Date added was changed to a date format.
-o	release_year was changed to a whole number.
-o	duration was converted to minutes using a conditional column and an if-else statement.
-•	Splitting / Extracting Data:
-o	A new Excel file was created for category mapping of the listed_in column.
-o	The id and listed_in columns were used for category mapping.
-o	The listed_in column was split using a comma delimiter to create separate rows for each genre.
-o	The data was trimmed to remove extra spaces.
-
+- Column Profiling: A preliminary review of the data columns was conducted to understand their characteristics.
+- Setting Headers: The headers were set to be the first row of data.
+- File Fixes: The CSV file was manually corrected to address a specific data issue, such as "William Wyler" being incorrectly listed as a type.
+- Dealing with Missing Values:
+- Director: The strategy for the director column was to fill missing values with "no director." The more complex method of using cast members to find directors was deemed unreliable.
+- Country: For missing country data, the assumption was made that the titles were produced in the United States, given that 31% of the movies were made there, and only 10% of the values were missing.
+- Changing Data Types:
+- Date added was changed to a date format.
+- release_year was changed to a whole number.
+- duration was converted to minutes using a conditional column and an if-else statement.
+- Splitting / Extracting Data:
+- A new Excel file was created for category mapping of the listed_in column.
+- The id and listed_in columns were used for category mapping.
+- The listed_in column was split using a comma delimiter to create separate rows for each genre.
+- The data was trimmed to remove extra spaces.
+________________________________________
+- Dashboard Interaction <a href= "https://github.com/binayaaryal12/netflix-eda/blob/main/netflix.pdf"> View Dashboard</a> 
